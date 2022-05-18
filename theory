@@ -1,0 +1,57 @@
+Assignment No. 1
+Title:
+Linear Regression
+Algorithm :
+• First we have to install libraries such as pandas,matplotlib,scikit-learn using
+pip3.Import this libraries in to the python program.
+• Read dataset from the location where the dataset of correlation of the number of hours
+spent driving with the risk is stored.
+• Import the Linear Regression and Create object of it.
+• Now fit the values of X andY to create a model.
+Machine Learning Assignments
+• Then predict the value(Risk score) for X using predict function.
+• Then calculate mean squared error and accuracy to check the performance of the
+model using mean_squared_error and score function respectively.
+• Print the equation of best fit line.
+
+Assignment No. 2
+Title:
+Decision Tree Classifier.
+Algorithm
+1. Import the Required Packages
+2. Read Given Dataset
+3. Perform the label Encoding Mean Convert String value into Numerical values
+4. Import and Apply Decision Tree Classifier
+5. Predict value for the given Expression like [Age &lt; 21, Income = Low,
+Gender = Female, Marital Status = Married]? In encoding Values [1,1,0,0]
+6. Import the packages for Create Decision Tree.
+7. Check the Decision Tree Created based on Expression.
+
+
+Assignment No. 3
+Title:
+K-NN Classification
+Algorithm:
+1. Load the data
+2. Initialize the value of k
+3. For getting the predicted class, iterate from 1 to total number of training data point.
+• Calculate the distance between test data and each row of training data. Here we will use
+Euclidean distance as our distance metric since it’s the most popular method. The other
+metrics that can be used are Chebyshev, cosine, etc.
+• Sort the calculated distances in ascending order based on distance values
+• Get top k rows from the sorted array
+• Get the most frequent class of these rows
+• Return the predicted class
+
+
+Assignment No. 4
+Title:
+K-means Clustering.
+Algorithm:
+Specify number of clusters K.
+1. Initialize centroids by first shuffling the dataset and then randomly selecting K data points
+for the centroids without replacement.
+2. Assign each data point to the closest cluster (centroid).
+3. Compute and place new centroid of each cluster.
+4. Reassign each point to new closest centroid.
+If any reassignments goto step 4 else finish.
